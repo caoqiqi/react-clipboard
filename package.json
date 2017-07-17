@@ -1,0 +1,36 @@
+{
+  "name": "react-clipboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/rimraf lib && ./node_modules/.bin/babel src --copy-files --source-maps --extensions .es6,.es,.jsx,.js --out-dir lib && ./node_modules/.bin/webpack && ./node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caoqiqi/react-clipboard.git"
+  },
+  "keywords": [
+    "react",
+    "clipboard"
+  ],
+  "author": "caoqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caoqiqi/react-clipboard/issues"
+  },
+  "homepage": "https://github.com/caoqiqi/react-clipboard#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "webpack": "^3.3.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {}
+}
