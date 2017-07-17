@@ -1,1 +1,1 @@
-module.exports = require('./lib/clipboard');
+module.exports = require('./lib/clipoboard');
